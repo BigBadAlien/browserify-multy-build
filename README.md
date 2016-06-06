@@ -7,6 +7,13 @@ Browserify ES2015 code build with many points of entry. Entry of browserify bund
 * Production and development environment configuration located in .env file.
 * Inline sourcemaps included in development mode.
 
+#### Installation
+```
+npm install
+npm install gulp -g
+```
+
+#### Using
 `scripts-watch` - watch/build task.
 
 `scripts-build` - build task.

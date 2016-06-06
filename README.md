@@ -14,6 +14,6 @@ npm install gulp -g
 ```
 
 #### Using
-`scripts-watch` - watch/build task.
+`gulp scripts-watch` - watch/build task.
 
-`scripts-build` - build task.
+`gulp scripts-build` - build task.

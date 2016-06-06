@@ -38,7 +38,7 @@ var bundle = function (bundler, entryFilepath) {
 };
 
 var buildScripts = function (done, watch) {
-  glob(`${SRC_PATH}/**/!(_)*.js`, function (err, files) {
+  glob(`${SRC_PATH}/**/[A-Z]*.js`, function (err, files) {
     if (err) {
       done(err);
     }

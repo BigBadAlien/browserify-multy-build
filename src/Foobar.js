@@ -1,4 +1,4 @@
-import Baz from './_Baz';
+import Baz from './baz.js';
 
 class Foobar {
   constructor(foo, bar) {

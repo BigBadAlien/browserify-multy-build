@@ -14,7 +14,7 @@ var SRC_PATH = "./src";
 var BUILD_PATH = "./build";
 
 var bundle = function (bundler, entryFilepath) {
-  console.log(`Build: ${entryFilepath}`);
+  console.log(`Build: ${entryFilepath} to ${entryFilepath.replace(SRC_PATH, BUILD_PATH)}`);
 
   return bundler.bundle()
     .on("error", handleErrors)
